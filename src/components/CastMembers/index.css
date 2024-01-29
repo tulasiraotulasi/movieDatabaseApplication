@@ -1,0 +1,25 @@
+.castCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 10vw;
+  max-height: 50vh;
+  margin-right: 2%;
+}
+.castImg {
+  width: 10vw;
+  border-radius: 10px;
+}
+.characterName {
+  height: 10vh;
+}
+
+@media (max-width: 700px) {
+  .castCard {
+    width: 35vw;
+  }
+  .castImg {
+    width: 35vw;
+  }
+}

@@ -1,0 +1,74 @@
+.home-container {
+  width: fit-content;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1%;
+  background-color: rgb(240, 239, 239);
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  padding-left: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40vw;
+}
+.headright {
+  display: flex;
+  width: 50%;
+}
+.titleName {
+  margin-right: 10px;
+}
+.searchBar {
+  outline: none;
+  width: 30vw;
+  height: 4vh;
+}
+.btn {
+  height: 4vh;
+  width: 20vw;
+  max-width: fit-content;
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    width: 100vh;
+  }
+  .titleName {
+    align-self: flex-start;
+    width: 100vh;
+  }
+
+  .headright {
+    align-self: flex-start;
+    width: 100vh;
+  }
+  .searchBar {
+    width: 40%;
+  }
+  .btn {
+    width: 20%;
+  }
+}
+
+.paginationDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 239, 239);
+  margin: 0px;
+  padding: 0px;
+}

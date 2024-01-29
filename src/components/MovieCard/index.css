@@ -1,0 +1,51 @@
+li {
+  margin-bottom: 2%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 17vw;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: black;
+  margin: 0px;
+  border: 1px solid black;
+  max-height: 80vh;
+  box-shadow: 1px 2px 3px 2px;
+  overflow: hidden;
+}
+.buttonCard {
+  background-color: transparent;
+  border: none;
+  width: fit-content;
+}
+.imgClass {
+  width: 17vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cardInner {
+  align-self: flex-start;
+  padding-left: 2%;
+  font-weight: bold;
+}
+
+.heading {
+  font-size: small;
+}
+.linkClass {
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 33vw;
+    max-height: 50vh;
+  }
+
+  .imgClass {
+    width: 33vw;
+  }
+}
